@@ -38,6 +38,11 @@ async def des():
     file_p="./e4ak.cpp"
     return FileResponse(file_p)
 
+@app.get("/4ak")
+async def des():
+    file_p="./e4ak.cpp"
+    return FileResponse(file_p)
+
 @app.get("/4b")
 async def des():
     file_p="./e4b.cpp"
@@ -50,12 +55,12 @@ async def des():
 
 @app.get("/6")
 async def des():
-    file_p="./e6.c"
+    file_p="./e6.py"
     return FileResponse(file_p)
 
 @app.get("/7")
 async def des():
-    file_p="./e7.c"
+    file_p="./e7.py"
     return FileResponse(file_p)
 
 @app.get("/8")
@@ -76,6 +81,11 @@ async def des():
 @app.get("/11")
 async def des():
     file_p="./e11.py"
+    return FileResponse(file_p)
+
+@app.get("/12")
+async def des():
+    file_p="./e12.cpp"
     return FileResponse(file_p)
 
 @app.get("/13")
