@@ -23,6 +23,11 @@ async def des():
     file_p="./e3.c"
     return FileResponse(file_p)
 
+@app.get("/3k")
+async def des():
+    file_p="./e3k.cpp"
+    return FileResponse(file_p)
+
 @app.get("/4a")
 async def des():
     file_p="./e4a.cpp"
