@@ -33,6 +33,11 @@ async def des():
     file_p="./e4a.cpp"
     return FileResponse(file_p)
 
+@app.get("/4ak")
+async def des():
+    file_p="./e4ak.cpp"
+    return FileResponse(file_p)
+
 @app.get("/4b")
 async def des():
     file_p="./e4b.cpp"
