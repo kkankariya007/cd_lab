@@ -1,3 +1,5 @@
+#postfix and prefix
+
 OPERATORS = set(['+', '-', '*', '/', '(', ')'])
 PRI = {'+':1, '-':1, '*':2, '/':2}
 

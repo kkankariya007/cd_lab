@@ -1,3 +1,5 @@
+#quadruple,triple and indirect
+
 # Class to convert the expression
 class Conversion:
     # Constructor to initialize the class variables

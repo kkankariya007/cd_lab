@@ -1,3 +1,5 @@
+//LR(0)
+
 #include<iostream>
 #include<conio.h>
 #include<string.h>
