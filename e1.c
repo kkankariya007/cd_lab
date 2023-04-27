@@ -1,3 +1,5 @@
+//To implement lexical analysis for a given program
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>

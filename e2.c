@@ -1,3 +1,5 @@
+//To write a program for converting regular expression to NFA
+
 #include<stdio.h>
 #include<string.h>
 int main()
